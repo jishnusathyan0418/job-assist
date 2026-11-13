@@ -1,0 +1,6 @@
+{
+  "name": "JobPulse Agent Platform",
+  "description": "AI-powered job application tracker, resume skill extractor, job description matcher, and interview preparation workspace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

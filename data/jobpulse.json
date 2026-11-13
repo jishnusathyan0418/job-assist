@@ -1,0 +1,370 @@
+{
+  "resumes": [
+    {
+      "id": "res_fullstack_2026",
+      "title": "Senior Full-Stack & AI Platform Engineer",
+      "candidateName": "Alex Mercer",
+      "targetRole": "Staff / Senior Product Engineer",
+      "experienceYears": 7,
+      "summary": "Full-stack systems engineer specializing in TypeScript, React, distributed Node.js APIs, PostgreSQL query optimization, and production LLM orchestration.",
+      "rawText": "ALEX MERCER — Senior Full-Stack & AI Platform Engineer\nSan Francisco, CA · 7+ years building high-throughput SaaS and developer infrastructure\n\nEXPERIENCE\nStaff Software Engineer, TelemetryCloud (2023–Present)\n- Architected real-time observability ingestion pipelines in TypeScript, Node.js, and PostgreSQL handling 45k events/sec with p99 latency under 110ms.\n- Led frontend platform migration to React 19, Tailwind CSS, and streaming Server-Sent Events for live query diagnostics.\n- Built multi-step LLM agent evaluation workflows using structured JSON schemas, reducing prompt regression defects by 42%.\n\nSenior Software Engineer, LedgerFlow (2020–2023)\n- Designed multi-tenant billing and ledger reconciliation services on AWS ECS, Redis, and Docker.\n- Implemented role-based access control, audit logging, and GraphQL/REST API gateways serving 180 enterprise accounts.\n\nSKILLS\nTypeScript, JavaScript, React, Next.js, Node.js, Express, Python, PostgreSQL, Redis, GraphQL, Docker, AWS, Kubernetes, Tailwind CSS, LLM Evaluation, Structured Prompting, CI/CD, System Design",
+      "extractedSkills": [
+        {
+          "name": "TypeScript",
+          "category": "Languages & Frameworks",
+          "proficiency": "Core",
+          "yearsEstimated": 7
+        },
+        {
+          "name": "React / Next.js",
+          "category": "Languages & Frameworks",
+          "proficiency": "Core",
+          "yearsEstimated": 6
+        },
+        {
+          "name": "Node.js & Express",
+          "category": "Languages & Frameworks",
+          "proficiency": "Core",
+          "yearsEstimated": 7
+        },
+        {
+          "name": "Python",
+          "category": "Languages & Frameworks",
+          "proficiency": "Proficient",
+          "yearsEstimated": 4
+        },
+        {
+          "name": "PostgreSQL",
+          "category": "Infrastructure & Data",
+          "proficiency": "Core",
+          "yearsEstimated": 6
+        },
+        {
+          "name": "Redis & Caching",
+          "category": "Infrastructure & Data",
+          "proficiency": "Proficient",
+          "yearsEstimated": 5
+        },
+        {
+          "name": "AWS & Docker",
+          "category": "Infrastructure & Data",
+          "proficiency": "Proficient",
+          "yearsEstimated": 5
+        },
+        {
+          "name": "LLM Agent Workflows",
+          "category": "AI & ML",
+          "proficiency": "Core",
+          "yearsEstimated": 3
+        },
+        {
+          "name": "Structured JSON Prompting",
+          "category": "AI & ML",
+          "proficiency": "Core",
+          "yearsEstimated": 3
+        },
+        {
+          "name": "System Design & RBAC",
+          "category": "Architecture & Product",
+          "proficiency": "Core",
+          "yearsEstimated": 6
+        }
+      ],
+      "createdAt": "2026-10-12T09:00:00.000Z",
+      "updatedAt": "2026-11-08T14:20:00.000Z"
+    },
+    {
+      "id": "res_frontend_arch",
+      "title": "Principal Frontend & Design Systems",
+      "candidateName": "Alex Mercer",
+      "targetRole": "Lead Frontend Architect",
+      "experienceYears": 7,
+      "summary": "Design-minded frontend architect focused on high-density SaaS dashboards, WCAG AA accessibility, TypeScript state machines, and zero-jank data visualization.",
+      "rawText": "ALEX MERCER — Principal Frontend & Design Systems\nEXPERIENCE\nLed component library governance, React performance profiling, virtualized tables for 100k+ rows, and end-to-end Playwright test harnesses.",
+      "extractedSkills": [
+        {
+          "name": "TypeScript",
+          "category": "Languages & Frameworks",
+          "proficiency": "Core",
+          "yearsEstimated": 7
+        },
+        {
+          "name": "React 19",
+          "category": "Languages & Frameworks",
+          "proficiency": "Core",
+          "yearsEstimated": 6
+        },
+        {
+          "name": "Tailwind CSS",
+          "category": "Languages & Frameworks",
+          "proficiency": "Core",
+          "yearsEstimated": 4
+        },
+        {
+          "name": "Accessibility (WCAG AA)",
+          "category": "Architecture & Product",
+          "proficiency": "Core",
+          "yearsEstimated": 5
+        },
+        {
+          "name": "Performance Profiling",
+          "category": "Architecture & Product",
+          "proficiency": "Proficient",
+          "yearsEstimated": 5
+        }
+      ],
+      "createdAt": "2026-10-20T11:30:00.000Z",
+      "updatedAt": "2026-11-01T16:10:00.000Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app_linear_infra",
+      "company": "Vektor Labs",
+      "roleTitle": "Senior Product Engineer, AI Workflows",
+      "location": "San Francisco / Hybrid",
+      "compensation": "$210k – $245k + equity",
+      "jobUrl": "https://jobs.example.com/vektor-labs/ai-workflows",
+      "jobDescription": "Build low-latency agent orchestration interfaces, streaming telemetry views, TypeScript APIs, and PostgreSQL-backed workflow persistence for enterprise engineering teams.",
+      "resumeId": "res_fullstack_2026",
+      "status": "Interviewing",
+      "matchScore": 93,
+      "fitLabel": "Strong Fit",
+      "matchSummary": "Direct alignment across TypeScript, React streaming UIs, PostgreSQL telemetry pipelines, and structured LLM agent evaluation.",
+      "matchedSkills": [
+        "TypeScript",
+        "React / Next.js",
+        "PostgreSQL",
+        "LLM Agent Workflows",
+        "SSE Streaming"
+      ],
+      "missingSkills": [
+        "Temporal Workflow Engine"
+      ],
+      "tailoredBullets": [
+        "Architected TypeScript and PostgreSQL event ingestion processing 45k events/sec at sub-110ms p99 latency.",
+        "Shipped streaming SSE diagnostics in React 19 paired with deterministic JSON schema LLM evaluations.",
+        "Reduced prompt regression defects by 42% through automated multi-step agent test suites."
+      ],
+      "coverNote": "My background building sub-110ms observability pipelines and structured LLM evaluation harnesses maps directly to Vektor Labs’ agent workflow roadmap.",
+      "appliedAt": "2026-11-02",
+      "nextFollowUp": "2026-11-15",
+      "notes": "System design round scheduled with platform lead. Focus on idempotent workflow retries and SSE backpressure.",
+      "createdAt": "2026-11-02T10:15:00.000Z",
+      "updatedAt": "2026-11-11T17:40:00.000Z"
+    },
+    {
+      "id": "app_meridian_data",
+      "company": "Meridian Data",
+      "roleTitle": "Staff Full-Stack Engineer",
+      "location": "Remote (US)",
+      "compensation": "$225k – $260k",
+      "jobUrl": "https://jobs.example.com/meridian/staff-fullstack",
+      "jobDescription": "Own end-to-end architecture for high-density analytics workspaces, SQL query builders, multi-tenant RBAC, and Redis caching tiers.",
+      "resumeId": "res_fullstack_2026",
+      "status": "Offer",
+      "matchScore": 91,
+      "fitLabel": "Strong Fit",
+      "matchSummary": "Strong match on multi-tenant RBAC, Redis caching, PostgreSQL tuning, and enterprise React workspace architecture.",
+      "matchedSkills": [
+        "TypeScript",
+        "PostgreSQL",
+        "Redis & Caching",
+        "System Design & RBAC",
+        "React / Next.js"
+      ],
+      "missingSkills": [
+        "ClickHouse"
+      ],
+      "tailoredBullets": [
+        "Delivered multi-tenant RBAC and API gateways supporting 180 enterprise organizations with zero cross-tenant leakage.",
+        "Optimized PostgreSQL and Redis caching layers to sustain high-concurrency SaaS analytics queries."
+      ],
+      "coverNote": "Having scaled multi-tenant SaaS workspaces and PostgreSQL/Redis data tiers for 180+ enterprise teams, I can accelerate Meridian’s enterprise analytics roadmap.",
+      "appliedAt": "2026-10-19",
+      "nextFollowUp": "2026-11-16",
+      "notes": "Written offer received. Comparing equity vesting schedule and signing bonus before Monday response.",
+      "createdAt": "2026-10-19T08:45:00.000Z",
+      "updatedAt": "2026-11-12T15:05:00.000Z"
+    },
+    {
+      "id": "app_northstar_cloud",
+      "company": "Northstar Cloud",
+      "roleTitle": "Lead Frontend Architect",
+      "location": "New York / Hybrid",
+      "compensation": "$205k – $235k",
+      "jobUrl": "https://jobs.example.com/northstar/frontend-architect",
+      "jobDescription": "Lead design systems, WCAG AA compliance, complex data grids, and developer console ergonomics across 6 product squads.",
+      "resumeId": "res_frontend_arch",
+      "status": "Interviewing",
+      "matchScore": 88,
+      "fitLabel": "Strong Fit",
+      "matchSummary": "High overlap in React 19, Tailwind CSS design systems, WCAG AA accessibility, and performance profiling.",
+      "matchedSkills": [
+        "TypeScript",
+        "React 19",
+        "Tailwind CSS",
+        "Accessibility (WCAG AA)",
+        "Performance Profiling"
+      ],
+      "missingSkills": [
+        "WebAssembly Data Grid"
+      ],
+      "tailoredBullets": [
+        "Governed multi-squad React and Tailwind CSS component libraries with strict WCAG AA keyboard and contrast compliance.",
+        "Built virtualized high-density tables handling 100k+ live rows without main-thread frame drops."
+      ],
+      "coverNote": "I specialize in translating dense developer telemetry into fast, accessible React workspaces across multi-squad organizations.",
+      "appliedAt": "2026-11-04",
+      "nextFollowUp": "2026-11-14",
+      "notes": "Final architecture walkthrough tomorrow morning; prepare case study on token architecture and table virtualization.",
+      "createdAt": "2026-11-04T13:20:00.000Z",
+      "updatedAt": "2026-11-12T09:10:00.000Z"
+    },
+    {
+      "id": "app_kestrel_ai",
+      "company": "Kestrel AI",
+      "roleTitle": "Applied AI Engineer",
+      "location": "San Francisco",
+      "compensation": "$195k – $230k",
+      "jobUrl": "https://jobs.example.com/kestrel/applied-ai",
+      "jobDescription": "Design retrieval pipelines, structured JSON extraction agents, Python microservices, and evaluation benchmarks for legal document review.",
+      "resumeId": "res_fullstack_2026",
+      "status": "Applied",
+      "matchScore": 79,
+      "fitLabel": "Moderate Fit",
+      "matchSummary": "Solid LLM workflow and structured extraction foundation; Python backend depth and vector index tuning are growth areas.",
+      "matchedSkills": [
+        "LLM Agent Workflows",
+        "Structured JSON Prompting",
+        "Python",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "PyTorch Fine-Tuning",
+        "pgvector HNSW Tuning"
+      ],
+      "tailoredBullets": [
+        "Designed deterministic structured-JSON extraction pipelines reducing model regression defects by 42%.",
+        "Built full-stack evaluation harnesses enabling rapid prompt and schema iteration across product teams."
+      ],
+      "coverNote": "My practical experience shipping reliable structured-output LLM workflows and eval harnesses translates cleanly to Kestrel’s legal review agents.",
+      "appliedAt": "2026-11-09",
+      "nextFollowUp": "2026-11-18",
+      "notes": "Submitted via direct referral from Priya S. Follow up if recruiter screen is not scheduled within 7 business days.",
+      "createdAt": "2026-11-09T16:00:00.000Z",
+      "updatedAt": "2026-11-09T16:00:00.000Z"
+    },
+    {
+      "id": "app_covalent_pay",
+      "company": "Covalent Pay",
+      "roleTitle": "Senior Backend Engineer, Ledger",
+      "location": "Seattle / Remote",
+      "compensation": "$190k – $220k",
+      "jobUrl": "https://jobs.example.com/covalent/ledger-backend",
+      "jobDescription": "Maintain double-entry financial ledgers in Go and PostgreSQL with strict idempotency, distributed locking, and high-availability guarantees.",
+      "resumeId": "res_fullstack_2026",
+      "status": "Saved",
+      "matchScore": 72,
+      "fitLabel": "Moderate Fit",
+      "matchSummary": "Strong ledger reconciliation and PostgreSQL experience from LedgerFlow; role prefers production Go over Node.js/TypeScript.",
+      "matchedSkills": [
+        "PostgreSQL",
+        "Redis & Caching",
+        "System Design & RBAC",
+        "AWS & Docker"
+      ],
+      "missingSkills": [
+        "Go (Golang)",
+        "Kafka Streams"
+      ],
+      "tailoredBullets": [
+        "Built multi-tenant billing and ledger reconciliation services for 180 enterprise customers with strict audit trails."
+      ],
+      "coverNote": "While my recent production services run on TypeScript and Node.js, my domain depth in double-entry ledger reconciliation and PostgreSQL locking carries over directly.",
+      "appliedAt": null,
+      "nextFollowUp": "2026-11-17",
+      "notes": "Reviewing whether to tailor resume toward distributed systems and Go side project before submitting.",
+      "createdAt": "2026-11-10T11:25:00.000Z",
+      "updatedAt": "2026-11-10T11:25:00.000Z"
+    },
+    {
+      "id": "app_stratum_sec",
+      "company": "Stratum Security",
+      "roleTitle": "Principal Platform Engineer",
+      "location": "Remote",
+      "compensation": "$215k – $250k",
+      "jobUrl": "https://jobs.example.com/stratum/principal-platform",
+      "jobDescription": "Lead Kubernetes multi-region control plane, Rust telemetry collectors, and zero-trust service mesh automation.",
+      "resumeId": "res_fullstack_2026",
+      "status": "Archived",
+      "matchScore": 61,
+      "fitLabel": "Stretch Role",
+      "matchSummary": "Good Kubernetes and telemetry background, but heavy Rust kernel/eBPF and service-mesh ownership falls outside core stack.",
+      "matchedSkills": [
+        "Kubernetes",
+        "AWS & Docker",
+        "System Design & RBAC"
+      ],
+      "missingSkills": [
+        "Rust",
+        "eBPF",
+        "Envoy Service Mesh"
+      ],
+      "tailoredBullets": [
+        "Operated high-volume telemetry ingestion pipelines across containerized AWS environments."
+      ],
+      "coverNote": "",
+      "appliedAt": "2026-10-14",
+      "nextFollowUp": null,
+      "notes": "Closed out after mutual stack mismatch on Rust/eBPF systems programming.",
+      "createdAt": "2026-10-14T14:00:00.000Z",
+      "updatedAt": "2026-10-28T18:30:00.000Z"
+    }
+  ],
+  "interviewPreps": [
+    {
+      "id": "prep_linear_infra",
+      "applicationId": "app_linear_infra",
+      "companyResearch": "Vektor Labs builds developer-facing AI agent orchestration workflows where deterministic observability, resumable execution traces, and low-latency streaming UIs differentiate them from generic wrappers.",
+      "technicalTopics": [
+        "Server-Sent Events (SSE) connection lifecycle, heartbeats, and client reconnection",
+        "Idempotent agent step persistence in PostgreSQL with optimistic concurrency",
+        "Structured JSON schema validation and fallback recovery for LLM outputs",
+        "Backpressure handling between Node.js worker queues and React state"
+      ],
+      "questions": [
+        {
+          "id": "q_vektor_1",
+          "category": "System Design",
+          "question": "Design a resumable streaming execution log for a multi-step AI agent where clients may disconnect mid-run and reconnect on another device.",
+          "whyAsked": "Directly tests your TelemetryCloud streaming diagnostics and PostgreSQL event ingestion experience.",
+          "starOutline": "Situation: Enterprise users need live step visibility without losing trace history on refresh. Task: Guarantee ordered, gap-free event delivery. Action: Persist monotonic sequence IDs per run in PostgreSQL, stream deltas via SSE with Last-Event-ID replay cursor. Result: Zero missed frames and sub-110ms resume latency.",
+          "practiced": true
+        },
+        {
+          "id": "q_vektor_2",
+          "category": "Technical",
+          "question": "How do you prevent silent schema drift or hallucinated fields when chaining structured-output LLM calls in production?",
+          "whyAsked": "Probes your 42% prompt regression reduction claim and structured JSON prompting rigor.",
+          "starOutline": "Define strict response schemas, validate at runtime with Zod/JSON Schema, log failure modes into golden eval datasets, and run CI regression gates before prompt updates ship.",
+          "practiced": false
+        },
+        {
+          "id": "q_vektor_3",
+          "category": "Behavioral",
+          "question": "Tell me about a time you had to push back on product scope to protect system latency or reliability.",
+          "whyAsked": "Evaluates staff-level product engineering judgment and cross-functional communication.",
+          "starOutline": "Situation: Requested synchronous multi-join analytics inside the ingestion path. Task: Keep p99 under 110ms. Action: Proposed pre-aggregated async rollups with progressive UI loading. Result: Met feature launch date while keeping p99 at 98ms.",
+          "practiced": false
+        }
+      ],
+      "questionsToAsk": [
+        "How does the team currently measure and gate prompt or tool-schema regressions before deploying agent updates?",
+        "Where are the largest latency bottlenecks today between LLM token streaming and frontend state reconciliation?",
+        "What does success in the first 90 days look like for this role on the workflow runtime squad?"
+      ],
+      "generatedAt": "2026-11-11T17:45:00.000Z"
+    }
+  ]
+}
