@@ -1,0 +1,105 @@
+{
+  "planHash": "034d71e43fe83a29788147ec609093920a55165f22432eedbd420ef6d305a40d",
+  "phase": "standalone",
+  "recordedAtUtc": "2026-11-15T12:53:56.9179447Z",
+  "retryCount": 0,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 0,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "frontend-build",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "Frontend built into frontend/dist. Generated dependencies stay on the local disk.\r\n",
+        "durationMs": 16965
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E jobspace@0.1.0 test:e2e\r\n\u003E playwright test\r\n\r\n\r\nRunning 10 tests using 1 worker\r\n\r\n  ok  1 e2e\\product.spec.ts:15:1 ? private signup, resume, matching, application, history, persistence and export (4.6s)\r\n  ok  2 e2e\\product.spec.ts:65:1 ? mobile empty workspace and recoverable database failure (1.6s)\r\n  ok  3 e2e\\product.spec.ts:82:1 ? changed resume changes results and failed search clears previous output (2.5s)\r\n  ok  4 e2e\\product.spec.ts:116:1 ? all selected required posting skills must appear in a result (1.6s)\r\n  ok  5 e2e\\product.spec.ts:139:1 ? internship pay preference is saved and excludes unpaid or undisclosed pay (2.0s)\r\n  ok  6 e2e\\product.spec.ts:167:1 ? startup empty result explains strict filters without claiming refresh will find jobs (1.7s)\r\n  ok  7 e2e\\product.spec.ts:197:1 ? required posting skills filter results and persist after clearing (2.3s)\r\n  ok  8 e2e\\product.spec.ts:232:1 ? empty results explain location while preserving required-skill filters (2.2s)\r\n  ok  9 e2e\\product.spec.ts:275:1 ? unclear fresher eligibility is opt-in, separate, and persists after reload (2.5s)\r\n  -  10 e2e\\product.spec.ts:313:1 ? real employer snapshot matches the audited Bangalore profile through the browser\r\n\r\n  1 skipped\r\n  9 passed (24.0s)\r\n\r\n",
+        "durationMs": 38522,
+        "testResults": {
+          "testFramework": "unknown",
+          "runnerDetectedFrom": "none",
+          "testsTotal": 0,
+          "testsPassed": 0,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": true
+        }
+      },
+      {
+        "name": "ready-endpoint-200",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n{\u0022status\u0022:\u0022ok\u0022}\n--- server output ---\nINFO:     Loading environment from \u0027.env\u0027\r\nINFO:     Started server process [16172]\r\nINFO:     Waiting for application startup.\r\nINFO:     Application startup complete.\r\nINFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL\u002BC to quit)\r\nINFO:     127.0.0.1:50182 - \u0022GET /health/ready HTTP/1.1\u0022 200 OK\r\n",
+        "durationMs": 6282
+      }
+    ],
+    "executions": [
+      {
+        "source": "frontend-build",
+        "resolvedExecutable": "G:\\My Drive\\PROJECTS\\Job Automation System\\.venv\\Scripts\\python.exe",
+        "args": [
+          "G:\\My Drive\\PROJECTS\\Job Automation System\\scripts\\build_frontend.py"
+        ],
+        "cwd": "G:\\My Drive\\PROJECTS\\Job Automation System\\frontend",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "tests-pass",
+        "resolvedExecutable": "G:\\My Drive\\PROJECTS\\Job Automation System\\.venv\\Scripts\\python.exe",
+        "args": [
+          "G:\\My Drive\\PROJECTS\\Job Automation System\\scripts\\test_e2e.py"
+        ],
+        "cwd": "G:\\My Drive\\PROJECTS\\Job Automation System\\frontend",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "ready-endpoint-200",
+        "resolvedExecutable": "G:\\My Drive\\PROJECTS\\Job Automation System\\.venv\\Scripts\\python.exe",
+        "args": [
+          "-m",
+          "uvicorn",
+          "backend.server:app",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "8001",
+          "--env-file",
+          ".env"
+        ],
+        "cwd": "G:\\My Drive\\PROJECTS\\Job Automation System",
+        "env": {
+          "APP_ORIGIN": "http://127.0.0.1:8001"
+        },
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}

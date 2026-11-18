@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: jobspace
+    runtime: docker
+    plan: free
+    healthCheckPath: /health/ready
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: APP_ORIGIN
+        sync: false
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: SESSION_HOURS
+        value: "8"
+      - key: GREENHOUSE_BOARDS
+        value: "cloudflare,mongodb,databricks,stripe"
+      - key: RUN_MIGRATIONS
+        value: "false"

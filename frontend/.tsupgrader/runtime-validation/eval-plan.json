@@ -1,0 +1,53 @@
+{
+  "generatedOnPlatform": "win32",
+  "projectType": "webapp",
+  "setup": [],
+  "assertions": [
+    {
+      "name": "frontend-build",
+      "kind": "process",
+      "command": "G:\\My Drive\\PROJECTS\\Job Automation System\\.venv\\Scripts\\python.exe",
+      "args": [
+        "G:\\My Drive\\PROJECTS\\Job Automation System\\scripts\\build_frontend.py"
+      ],
+      "verificationMethod": "exit-code",
+      "expected": "0",
+      "timeoutSeconds": 300
+    },
+    {
+      "name": "tests-pass",
+      "kind": "process",
+      "command": "G:\\My Drive\\PROJECTS\\Job Automation System\\.venv\\Scripts\\python.exe",
+      "args": [
+        "G:\\My Drive\\PROJECTS\\Job Automation System\\scripts\\test_e2e.py"
+      ],
+      "verificationMethod": "test-results",
+      "expected": "0",
+      "timeoutSeconds": 300
+    },
+    {
+      "name": "ready-endpoint-200",
+      "kind": "http-probe",
+      "startCommand": "G:\\My Drive\\PROJECTS\\Job Automation System\\.venv\\Scripts\\python.exe",
+      "startArgs": [
+        "-m",
+        "uvicorn",
+        "backend.server:app",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8001",
+        "--env-file",
+        ".env"
+      ],
+      "cwd": "G:\\My Drive\\PROJECTS\\Job Automation System",
+      "env": {
+        "APP_ORIGIN": "http://127.0.0.1:8001"
+      },
+      "url": "http://127.0.0.1:8001/health/ready",
+      "verificationMethod": "http-status",
+      "expected": "200",
+      "timeoutSeconds": 60
+    }
+  ]
+}
